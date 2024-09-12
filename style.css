@@ -1,24 +1,41 @@
 
 body { 
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    font-size: 1.5vw;
+    display: grid; 
+    font-family: 'Style script', Arial, Helvetica, sans-serif;
+    margin: 20px;
+    font-size: 1.25vw;
 }
  #logo { 
+    display:flex; 
     margin: 0px; 
     padding: 8px;
-    font-family: "Fredoka One", sans-serif;
-    box-shadow: 10px 10px 15px 5px darkorange;
+    font-family: 'Style script', sans-serif;
     width:16%;
     color: white;
     
  }
+ #mindify_logo { 
+    margin:10px; 
+    width: 50px; 
+ }
+ #motto{ 
+    font-family: 'Style script', sans-serif;
+ }
+ #quote-box { 
+    font-family: 'Style script', sans-serif; 
+    display: flex; 
+    border: 1px solid black;
+    align-items: center; 
+ }
+ #article{ 
+    display: grid;
+}
 
 ul {  
     margin: 0px; 
 }
  body > header { 
-    background-color: orange;
+    background-color: rgb(72,209,204); 
     display:flex;
     height: 12vh;
     align-items: center;
@@ -29,7 +46,7 @@ ul {
 }
 #nav-ul > li { 
     padding: 8px;
-    margin: 16px; 
+    margin: 16px;
 }
 
 body > header > nav > ul { 
@@ -44,28 +61,82 @@ body > header > nav > ul {
     border: 1px solid white; 
     border-radius: 10%;
 }
-body > main  article {
-    width:70%; 
-    margin:auto; 
+body > main {
+    width:80%; 
+    margin:10px,30px,10px, 20px; 
 
 }
 #main-content { 
+    margin: 20px; 
     display: flex;
     justify-content: space-around; 
 }
 
 #main-content > div {
-    width: 70%; 
+    width: 90%; 
+}
+aside > h3 { 
+    font-family:'Style script', sans-serif;
 }
 
-form{ 
-    text-align: center;
+aside > button { 
+  min-width: 44px;
+  width: 6%;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-family: sans-serif; 
 }
-h2{ 
-    text-align: center;
+.scale-image{
+    width:35%; 
+    margin-right: 20px; 
 }
+.journal-container{ 
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+#quote-box {
+    font-family: 'Style Script', cursive;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+#button1{ 
+    background-color: rgb(217,0,0);
+    width: 100px;
+    height: 50px; 
+}
+#button2{ 
+    background-color: orangered;
+    width: 100px;
+    height: 50px; 
+}
+#button3 { 
+    background-color: yellow;
+    width: 100px;
+    height: 50px; 
+}
+#button4 { 
+    background-color: yellowgreen;
+    width: 100px;
+    height: 50px; 
+}
+#button5 { 
+    background-color: rgb(0,163,136);
+    
+    width: 100px;
+    height: 50px; 
+}
+#button6 { 
+   background-color: green; 
+    width: 100px;
+    height: 50px; 
+}
+
  body > footer{ 
-    background-color: orange;
+    background-color: rgb(72,209,204); 
     display: flex; 
 }
 
@@ -84,3 +155,9 @@ img{
     color: white; 
     text-decoration: none;
 }
+.content-container{ 
+    display: flex; 
+    justify-content: space-between;
+    margin: 20px;
+}
+
