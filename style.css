@@ -165,7 +165,7 @@ img{
     text-decoration: none;
 }
 .content-container{ 
-    display: flex; 
+    display: grid; 
     justify-content: space-between;
     margin: 20px;
 }
@@ -176,5 +176,8 @@ img{
     border: 1px solid #ccc;
     border-radius: 10%;
     border-color: black; 
+}
+#textsection{ 
+    display:flex; 
 }
 
